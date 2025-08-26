@@ -81,6 +81,7 @@ entity Roles {
         type : String(15);
 }
 
+//This is a smaple entity
 entity sampleEntity {
     key id   : Int16;
         type : String;
