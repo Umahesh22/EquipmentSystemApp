@@ -17,7 +17,8 @@
     "@cap-js/cds-types": "^0.13.0"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-adminequipmentapp": "cds watch --open adminequipmentapp/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {
@@ -28,5 +29,8 @@
         }
       }
     }
-  }
+  },
+  "sapux": [
+    "app/adminequipmentapp"
+  ]
 }
