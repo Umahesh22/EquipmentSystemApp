@@ -6,11 +6,11 @@ using {
 } from '@sap/cds/common';
 
 entity Equipments : cuid, managed {
-    name          : String(50) @title: '{i18n>name}';
+    name          : String(50)  @title: '{i18n>name}';
     type          : Association to EquipmentTypes;
     Location      : Association to Locations;
     status        : Association to EquipmentStatus;
-    description   : String(200);
+    description   : String(200) @title: '{i18n>description}';
     manufacturing : String(100);
     tasks         : Composition of many Tasks
                         on tasks.equipment = $self;

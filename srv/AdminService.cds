@@ -6,6 +6,7 @@ service AdminService {
     entity Tasks           as projection on service.Tasks;
     entity Issues          as projection on service.Issues;
     entity Locations       as projection on service.Locations;
+    @cds.odata.valuelist
     entity EquipmentStatus as projection on service.EquipmentStatus;
     entity IssueStatus     as projection on service.IssueStatus;
     entity TaskPriority    as projection on service.TaskPriority;

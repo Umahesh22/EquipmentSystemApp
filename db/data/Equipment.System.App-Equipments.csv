@@ -1,0 +1,4 @@
+ID,name,type_code,Location_locationid,status_equipmentCode,description,manufacturing,createdAt,createdBy,modifiedAt,modifiedBy
+123,Mahesh,Hyd,Hyd01,Active,001,Test,78,uj,12,Admin
+456,Kashyap,AIR,Hyd01,Active,001,Test,78,uj,12,Admin
+789,Devansh,DRL,Hyd01,Active,001,Test,78,uj,12,Admin
