@@ -15,3 +15,6 @@ service AdminService {
     entity EquipmentTypes  as projection on service.EquipmentTypes;
 }
 
+
+
+//
